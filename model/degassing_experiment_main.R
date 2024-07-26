@@ -7,7 +7,7 @@
 
 # Vegetation parameters and degassing boundary conditions are defined in frontend file: 
 #
-# thermal_adapt_par: rate at which floras can adapt temperature niche, in °C per Ma
+# thermal_adapt_par: rate at which floras can adapt temperature niche, in °C per year
 # aridity_adapt_par rate at which floras can adapt aridity niche, in Budyko aridity units per time step
 # dispersal_par: rate at which floras can disperse in space, in km per time step 
 # PREPLANT, defines maximum weathering enhancement factor, either (1/4) or (1/6) for 4-fold and 6-fold weathering enhancement respectively
@@ -210,7 +210,7 @@ if (timestep == 0){
   # Transfer important parameters to config file
   parameter_list <- list()
   parameter_list[["total_time_steps"]] <- total_time_steps
-  parameter_list[["thermal_adapt_par"]] <- thermal_adapt_par*DT # As temperature adaptation rates were initialized in °C per Myr, multiplication with time step results in °C per timestep (not needed for other parameters as initialized in rate / time step)
+  parameter_list[["thermal_adapt_par"]] <- thermal_adapt_par*DT # As temperature adaptation rates were initialized in °C per year, multiplication with time step results in °C per timestep (not needed for other parameters as initialized in rate / time step)
   parameter_list[["aridity_adapt_par"]] <- aridity_adapt_par
   parameter_list[["dispersal_par"]] <- dispersal_par
   parameter_list[["timestep"]] <- timestep

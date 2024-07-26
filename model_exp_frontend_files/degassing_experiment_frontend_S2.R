@@ -7,7 +7,7 @@
 ########################################################################################################################################################
 # Define the biological parameter space
 dispersal_rates <- c(seq(0, 1000, 100), seq(1200, 2000, 200), 4000, 6000, 10000) # This should be given in km per time step (here: timestep = 1e+5 years)
-temperature_niche_adaptation_rate <- (1/1e+6) *  c(seq(0, 0.1, 0.01), seq(0.2, 1, 0.1), seq(2, 10, 1))  # this should be given in °C per Ma
+temperature_niche_adaptation_rate <- (1/1e+6) *  c(seq(0, 0.1, 0.01), seq(0.2, 1, 0.1), seq(2, 10, 1))  # this should be given in °C per year
 aridity_niche_adaptation_rate <- c(seq(0, 0.1, 0.01), seq(0.2, 1, 0.1), 5, 10) # This should be given in Budyko aridity units per time step 
 PREPLANT <- c(1/6) # This parameter defines the maximum weathering enhancement effect of plants - current options: 1/4 = maximum 4-fold, 1/6 = maximum 6-fold enhancement
 
