@@ -1,4 +1,4 @@
-This repository includes all files needed to reproduce the climate trajectories from the paper 'Biogeographic climate sensitivity controls Earth system response to Large Igneous Province carbon degassing' by Rogger et al. (https://www.science.org/doi/10.1126/science.adn3450)
+This repository includes all files needed to reproduce the climate trajectories from the paper 'Biogeographic climate sensitivity controls Earth system response to large igneous province carbon degassing' by Rogger et al. (https://www.science.org/doi/10.1126/science.adn3450)
 
 The model represents a coupling of an eco-evolutionary vegetation model with a geologic carbon cycle model and a lookup structure of pre-run climate simulations. 
 It can be used to study carbon cycling and the climatic evolution following a Large Igneous Province (LIP) carbon degassing event. 
